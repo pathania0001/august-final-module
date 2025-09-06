@@ -73,7 +73,7 @@ const Main = () => {
         sortByMarketCap={() => sortByMarketCap(filteredByThen, setFilteredByThen)}
         sortByChange={() => sortByChange(filteredByThen, setFilteredByThen)}
       />
-      <h2 className="text-white mt-2">Data fetched using .then()</h2>
+      <h2 className="text-white mt-2 text-3xl text-center">Data fetched using .then()</h2>
       <TableData data={filteredByThen} />
 
       <TableHeader
@@ -81,7 +81,7 @@ const Main = () => {
         sortByMarketCap={() => sortByMarketCap(filteredByAsync, setFilteredByAsync)}
         sortByChange={() => sortByChange(filteredByAsync, setFilteredByAsync)}
       />
-      <h2 className="text-white mt-2">Data fetched using async/await</h2>
+      <h2 className="text-white mt-2 text-3xl text-center">Data fetched using async/await</h2>
       <TableData data={filteredByAsync} />
     </main>
   );
