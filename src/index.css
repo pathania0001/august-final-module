@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+aside{
+  width: 401px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+tr{
+  text-align: center;
+}
+td{
+  padding:24px 0;
+  text-align: center;
+}
+
+
+
+
+
